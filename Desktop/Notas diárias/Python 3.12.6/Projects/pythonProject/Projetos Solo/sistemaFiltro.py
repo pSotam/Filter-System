@@ -71,8 +71,7 @@ while True:
 
     def quit():
         print("👋 Adeus!")
-        return
-    break
+        exit()
 
     if(escolha == "ADD"):
         filtrar_palavras()
